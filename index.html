@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal de Apoio</title>
+  <link rel="icon" href="img/freepik.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      display: block;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color:#FFFFFF ;
+      width: 100%;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #517664;
+      color: #FFFFFF;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #d5fff3;
+    }
+    nav a {
+      color: rgba(18, 15, 15, 0.829);
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #FFFFFF;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      /* padding: 1rem;
+      background: white; */
+      border-radius: 10px;
+    }
+    section {
+      margin-top: 2rem;
+      margin-bottom: 2rem; 
+      display: flex;
+      align-items: center;
+      background-color: #8ea4d2;
+      border-radius: 30px;
+      color: #FFFFFF;
+      width: 100%;
+      
+    }
+    section img {
+      width: 200px;
+      height: 150px;
+      margin-right: 1rem;
+      object-fit: cover;
+      margin-left: 1rem;
+    }
+    h2 {
+      color: #004080;
+    }
+    footer {
+      background-color:#517664 ;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .circular-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;     /* Torna a imagem circular */
+  object-fit: cover;      /* Corta e encaixa a imagem dentro do círculo */
+  margin-right: 1rem;     /* Espaço entre a imagem e o texto */
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portal de Apoio para imigrantes</h1>
+    <p>Informação, suporte e orientação para você viver melhor.</p>
+  </header>
+
+  <nav>
+    <a href="#servicos">Serviços Essenciais</a>
+    <a href="#juridico">Orientação Jurídica e Social</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+    <section id="servicos">
+      <img src="img/servicio.jpg" alt="imagem de servicos de saude" class="circular-img" />
+      <div>
+      <h2>Serviços Essenciais</h2>
+      <p>Informações e acesso a serviços públicos fundamentais:</p>
+      <ul>
+        <li><strong>Saúde:</strong> Postos de saúde, vacinação, atendimentos gratuitos.</li>
+        <li><strong>Educação:</strong> Matrículas em escolas públicas, EJA, cursos gratuitos.</li>
+        <li><strong>Documentação:</strong> RG, CPF, título de eleitor, segunda via de certidões.</li>
+        <li><strong>Assistência Social:</strong> Cadastro Único, Bolsa Família, CRAS.</li>
+
+      </ul>
+      </br>
+      <p class="autor">Autor: <a href="#autor-franchesco>">Franchesco A. Aristor</a></p>
+      </div>
+    </section>
+
+    <section id="juridico">
+      <img src="img/juridical.jpeg" alt="imagem de orientacao juridica" class="circular-img" />
+      <div>
+      <h2>Orientação Jurídica e Social</h2>
+      <p>Suporte gratuito com foco na cidadania e no acesso à justiça:</p>
+      <ul>
+        <li><strong>Atendimento Jurídico:</strong> Dúvidas legais, direitos do consumidor, família e trabalhista.</li>
+        <li><strong>Assistência Social:</strong> Encaminhamento para benefícios, abrigos e serviços da rede pública.</li>
+        <li><strong>Mediação de Conflitos:</strong> Apoio para resolução pacífica de problemas familiares e comunitários.</li>
+        <li><strong>Direitos Humanos:</strong> Orientações sobre igualdade, acessibilidade e proteção de vulneráveis.</li>
+      </ul>
+      </br>
+      <p class="autor">Autor: <a href="#autor-jose garcia">Jose Garcia</a></p>
+      </div>
+    </section>
+
+    <section id="contato">
+      <img src="img/contato.jpg" alt="imagem de contato" class="circular-img" />
+      <div>
+      <h2>Contato</h2>
+      <p>Entre em contato para receber ajuda ou agendar um atendimento:</p>
+      <p><strong>Email:</strong> apoio@portalcidadao.org</p>
+      <p><strong>Telefone:</strong> (11) 99999-0000</p>
+      <p><strong>Endereço:</strong> Rua da Cidadania, 123 - Centro, São Paulo - SP</p>
+      </br>
+      <p class="autor">Autor: <a href="#autor-jecrois">Yves JecroiS</a></p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+   <p>&copy; 2025 | dicas de quem ja passou por isso 😎</p>
+   <div style="margin-top: 0.5rem; font-size: 0.9rem;">
+        <a href="https://educacaosemfronteiras.org.br/" target="blank" style="color: #FFFFFF;">este projeto e uma proposta da <strong>Educacao sem fronteiras</strong>.</a>
+         </div>
+  </footer>
+
+  <!-- Ancoras de autores -->
+   <div id="autor-francchesco"></div>
+   <div id="autor-jose garcia"></div>
+   <div id="autor-jecrois"></div>
+
+</body> 
+</html>
+
